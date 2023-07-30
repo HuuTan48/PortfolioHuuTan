@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-sora: Sora;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-9xl: 28px;
+  --font-size-29xl: 48px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-steelblue-100: #457b9d;
+  --color-white: #fff;
+  --color-gray-100: rgba(0, 0, 0, 0.7);
+}

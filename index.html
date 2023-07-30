@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="navbar">
+        <div class="navbar-child"></div>
+        <b class="portfolio" id="portfolioText">Portfolio</b>
+        <div class="trang-ch" id="trangChText">Trang Chủ</div>
+        <div class="k-nng" id="kNngText">Kỉ Năng</div>
+        <div class="lin-h" id="linHText1">Liên Hệ</div>
+        <div class="tc-phm" id="tcPhmText">Tác Phẩm</div>
+      </div>
+      <div class="header-parent">
+        <div class="header" data-scroll-to="headerContainer">
+          <img class="header-child" alt="" src="./public/rectangle-7@2x.png" />
+
+          <div class="xin-cho-parent">
+            <div class="xin-cho">Xin Chào ,</div>
+            <b class="ti-l-hu">Tôi Là Hữu Tấn</b>
+            <div class="i-vi-ti">
+              Đối với tôi Thiết kế đồ họa là nghệ thuật sử dụng các yếu tố thiết
+              kế (typography & hình ảnh) để truyền tải thông điệp hoặc tạo ra
+              một sự ảnh hưởng. Đây là một sản phẩm nghệ thuật.
+            </div>
+          </div>
+          <div class="rectangle-parent">
+            <div class="group-child"></div>
+            <div class="xem-thm" id="xemThmText">Xem Thêm</div>
+          </div>
+          <img
+            class="my-project-1-1-1"
+            alt=""
+            src="./public/my-project1-1-1@2x.png"
+          />
+
+          <div class="header-item"></div>
+          <img class="vegeta-1-icon" alt="" src="./public/vegeta-1@2x.png" />
+        </div>
+        <div class="about">
+          <div class="about-child"></div>
+          <div class="thng-tin-parent" data-scroll-to="groupContainer">
+            <div class="thng-tin">Thông Tin</div>
+            <div class="lorem-ipsum-dolor">
+              Lorem ipsum dolor sit amet consectetur. Iaculis diam augue a
+              adipiscing non aliquet. Leo semper lacus fringilla consectetur
+              cras ac ullamcorper ut. Risus nunc diam accumsan feugiat.
+              Tristique diam consectetur aliquam vitae suspendisse vel leo. Nec
+              quisque senectus laoreet id pulvinar id vulputate. Montes
+              consectetur diam non aliquam nunc maecenas non. Molestie pretium
+              amet id dictum vitae nam vel sit. Rhoncus massa velit ut amet
+              massa morbi eget.
+            </div>
+            <b class="thng-tin-v">Thông tin về Tôi</b>
+          </div>
+          <img class="icon" alt="" src="./public/18695-1@2x.png" />
+        </div>
+        <div class="skills" data-scroll-to="skillsContainer">
+          <div class="k-nng1">Kỉ Năng</div>
+          <b class="ti-c-th">Tôi có thả năng</b>
+          <div class="adobe-photoshop-cc-icon-1-wrapper">
+            <img
+              class="adobe-photoshop-cc-icon-1"
+              alt=""
+              src="./public/adobe-photoshop-cc-icon-1@2x.png"
+            />
+          </div>
+          <img
+            class="adobe-illustrator-cc-icon-1"
+            alt=""
+            src="./public/adobe-illustrator-cc-icon-1@2x.png"
+          />
+
+          <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+        </div>
+        <div class="projects">
+          <div class="projects-child"></div>
+          <b class="nhng-tc-phm" data-scroll-to="nhngTcPhm"
+            >Những Tác Phẩm Của Tôi</b
+          >
+          <img
+            class="nguyn-hu-tn-2022104030235-1"
+            alt=""
+            src="./public/nguyn-hu-tn-2022104030235-1@2x.png"
+          />
+
+          <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+        </div>
+      </div>
+      <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+
+      <div class="footer">
+        <div class="htnoseventgmailcom">ht.nosevent@gmail.com</div>
+        <img class="linkedin-icon" alt="" src="./public/linkedin@2x.png" />
+
+        <img class="instagram-icon" alt="" src="./public/instagram@2x.png" />
+
+        <div class="copyright-2023">
+          Copyright © 2023. Develop & Designed by BoriusHT
+        </div>
+        <b class="lin-lc-vi">Liên lạc với tôi</b>
+        <div class="lin-h1" data-scroll-to="linHText">Liên hệ</div>
+      </div>
+      <div class="poster-ng-ph">Poster Đường Phố</div>
+      <div class="b-nhn-din">Bộ nhận diện thương hiệu</div>
+      <div class="cch-iu-logo">Cách điệu logo Pepsi</div>
+      <div class="thit-k-logo">Thiết Kế Logo TDM</div>
+      <img class="logo-tdm2-1" alt="" src="./public/logo-tdm2-1@2x.png" />
+
+      <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
+    </div>
+
+    <script>
+      var portfolioText = document.getElementById("portfolioText");
+      if (portfolioText) {
+        portfolioText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='headerContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var trangChText = document.getElementById("trangChText");
+      if (trangChText) {
+        trangChText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='headerContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var kNngText = document.getElementById("kNngText");
+      if (kNngText) {
+        kNngText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='skillsContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var linHText1 = document.getElementById("linHText1");
+      if (linHText1) {
+        linHText1.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='linHText']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var tcPhmText = document.getElementById("tcPhmText");
+      if (tcPhmText) {
+        tcPhmText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='nhngTcPhm']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var xemThmText = document.getElementById("xemThmText");
+      if (xemThmText) {
+        xemThmText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='groupContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
